@@ -17,7 +17,7 @@ aside {
   @include breakpoint(md) {
     background-color: black;
     float: left;
-    height: 100%;
+    height: calc(100% - 50px);
     padding: 25px;
     width: calc(25% - 50px);
 
@@ -47,7 +47,7 @@ main {
     background: white;
     color: black;
     float: right;
-    height: 100%;
+    height: calc(100% - 50px);
     padding: 25px;
     width: calc( 75% - 50px );
 
