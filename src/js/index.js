@@ -1,4 +1,5 @@
-import * as styles from '../css/scottnash';
+import 'normalize.css';
+import '../css/scottnash';
 
 document.addEventListener("DOMContentLoaded", function(event) {
   console.log('hello');
