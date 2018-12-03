@@ -5,51 +5,75 @@ html, body {
 }
 
 body {
-  background: black;
-  color: white;
   font-family: Arial, Helvetica, sans-serif;
   overflow: auto;
 }
 
 aside {
+  background-color: black;
+  color: white;
   padding: 15px;
-  width: calc(100% - 30px);
-  @include breakpoint(md) {
-    background-color: black;
+  text-align: center;
+  width: calc( 100% - 30px );
+  @include breakpoint( sm ) {
     float: left;
     height: calc(100% - 50px);
     padding: 25px;
-    width: calc(25% - 50px);
+    text-align: left;
+    width: calc( 35% - 50px );
+  }
+  @include breakpoint( lg ) {
+    width: calc( 20% - 50px );
+  }
 
-    h1 {
-      margin: 0 0 15px 0;
+  @include breakpoint( xl ) {
+    width: calc( 15% - 50px );
+  }
+
+  h1 {
+    margin: 0 0 15px 0;
+  }
+
+  a, a:visited, a:hover {
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 0;
+    @include breakpoint( sm ) {
+      margin: 0 0;
+      max-width: none;
     }
-
-    a, a:visited, a:hover {
-      color: white;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      li {
-        margin: 0 0 10px 0;
+    li {
+      display: inline-block;
+      margin: 0 0 10px 0;
+      padding: 0 15px;
+      @include breakpoint( sm ) {
+        display: block;
+        padding: 0;
       }
     }
   }
 }
 
 main {
+  background: white;
+  color: black;
   padding: 15px;
   width: calc(100% - 30px);
-  @include breakpoint(md) {
-    background: white;
-    color: black;
+  @include breakpoint( sm ) {
     float: right;
     height: calc(100% - 50px);
     padding: 25px;
-    width: calc( 75% - 50px );
-
+    width: calc( 65% - 50px );
+  }
+  @include breakpoint( lg ) {
+    width: calc( 80% - 50px );
+  }
+  @include breakpoint( xl ) {
+    width: calc( 85% - 50px );
   }
 }

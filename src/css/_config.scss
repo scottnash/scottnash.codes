@@ -4,33 +4,23 @@
 
   @if $type == string {
       $class: $min;
-
-      @if $class == mobileWidth { //576px
-        @media (max-width: $mobileWidth) { @content; }
+      @if $class== xs {
+        @media ( min-width: 500px ) { @content; }
       }
-
-      @else if $class == tablet { //1024px
-        @media (max-width: $tabletWidth) { @content; }
-      }
-
       @else if $class == sm {
-        @media (min-width: 576px) { @content; }
+        @media ( min-width: 768px ) { @content; }
       }
-
       @else if $class == md {
-        @media (min-width: 768px) { @content; }
+        @media ( min-width: 992px ) { @content; }
       }
-
       @else if $class == lg {
-        @media (min-width:  $tabletWidth) { @content; }
+        @media ( min-width:  1200px ) { @content; }
       }
-
       @else if $class == xl {
-        @media (min-width: 1280px) { @content; }
+        @media ( min-width: 1600px ) { @content; }
       }
-
       @else {
-        @warn "Breakpoint mixin supports: mobileWidth, tablet, sm, md, lg, xl";
+        @warn "Breakpoint mixin supports: sm, md, lg, xl";
       }
   }
   @else if $type == number {
