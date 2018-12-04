@@ -34,7 +34,7 @@ module.exports = (env, argv) => {
                  loader: 'babel-loader',
                  query: {
                      presets: ['env', { "targets": {"browsers": ["last 2 versions"]}}],
-                     presets: ['react']
+                     presets: ['@babel/react']
                  }
               },
               {
