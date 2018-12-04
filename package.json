@@ -4,12 +4,12 @@
   "description": "Portfolio Site",
   "main": "src/js/index.js",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
-    "babel-loader": "^8.0.4",
+    "@babel/core": "^7.2.0",
     "css-loader": "^1.0.1",
     "mini-css-extract-plugin": "^0.4.5",
     "node-sass": "^4.10.0",

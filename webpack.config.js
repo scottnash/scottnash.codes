@@ -28,15 +28,14 @@ module.exports = (env, argv) => {
       },
       module: {
           rules: [
-              {
-                  test: /\.js$/,
-                  exclude: /node_modules/,
-                  use: {
-                    loader: 'babel-loader',
-                    options: {
-                      presets: ['@babel/preset-env']
-                    }
-                  }
+            {
+                 test: /(\.js|\.jsx)$/,
+                 exclude: /node_modules/,
+                 loader: 'babel-loader',
+                 query: {
+                     presets: ['env', { "targets": {"browsers": ["last 2 versions"]}}],
+                     presets: ['react']
+                 }
               },
               {
                  test: /\.(css|sass|scss)$/,
