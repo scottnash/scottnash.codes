@@ -19,12 +19,6 @@ const projectData = [
       mobileImage: 'bmw-mobile-mobile.jpg'
     },
     {
-      title: "The Prostate Czech",
-      description: "A site I built for the Prostate Cancer Foundation as part of their effort to raise awareness for Prostate Cancer and to encourage men to get checked. A 16th Annual Webby Award Honoree",
-      mobileImage: 'czech-site-mobile.jpg',
-      desktopImage: 'czech-site-desktop.jpg'
-    },
-    {
       title: "Fruit2Day",
       description: "For this fruit in a drink site, I built a basic CMS using PHP and mySQL that allowed an admin to enter details about the various flavors of fruit drinks.  I also worked on building out the front-end that accessed the data and displayed the flavors in a promotional site.",
       desktopImage: 'fruit2day.jpg'
@@ -49,8 +43,14 @@ const projectData = [
       desktopImage: 'pods-desktop.jpg'
     },
     {
+      title: "The Prostate Czech",
+      description: "A site I built for the Prostate Cancer Foundation as part of their effort to raise awareness for Prostate Cancer and to encourage men to get checked. A 16th Annual Webby Award Honoree.",
+      mobileImage: 'czech-site-mobile.jpg',
+      desktopImage: 'czech-site-desktop.jpg'
+    },
+    {
       title: "Puma - Factory",
-      description: "I was part of the team who built Puma's 'Design Your Own Puma' site. Using it, visitors to the site were able to chose various component for their shoes as well as pick their colors.",
+      description: "I was part of the team who built Puma's 'Design Your Own Puma' site. Using it, visitors to the site were able to choose various components for their shoes as well as pick their colors.",
       desktopImage: 'puma-desktop.jpg'
     },
     {
