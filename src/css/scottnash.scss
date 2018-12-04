@@ -16,10 +16,12 @@ aside {
   text-align: center;
   width: calc( 100% - 30px );
   @include breakpoint( sm ) {
-    float: left;
     height: calc(100% - 50px);
+    left: 0;
     padding: 25px;
+    position: fixed;
     text-align: left;
+    top: 0;
     width: calc( 35% - 50px );
   }
   @include breakpoint( lg ) {
@@ -94,5 +96,19 @@ main {
   }
   @include breakpoint( xl ) {
     width: calc( 85% - 50px );
+  }
+}
+
+.project-holder {
+  margin: 0 0 25px 0;
+  max-width: 700px;
+  a {
+    display: inline-block;
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+  }
+  img {
+    max-width: 100%;
   }
 }

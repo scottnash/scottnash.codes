@@ -1,6 +1,11 @@
 import 'normalize.css';
 import '../css/scottnash';
 
-document.addEventListener("DOMContentLoaded", function(event) {
-  console.log('hello');
-});
+import React from "react";
+import ReactDOM from "react-dom";
+import Projects from "./projects";
+
+const jsx = ( <Projects /> );
+
+const app = document.getElementById( "projects" );
+ReactDOM.render( jsx, app );

@@ -33,8 +33,9 @@ module.exports = (env, argv) => {
                  exclude: /node_modules/,
                  loader: 'babel-loader',
                  query: {
-                     presets: ['env', { "targets": {"browsers": ["last 2 versions"]}}],
-                     presets: ['@babel/react']
+                     presets: ['@babel/preset-env'],
+                     presets: ['@babel/react'],
+                     plugins: ['@babel/plugin-transform-runtime', '@babel/plugin-proposal-class-properties']
                  }
               },
               {
