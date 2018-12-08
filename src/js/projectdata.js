@@ -1,7 +1,7 @@
 const projectData = [
     {
       title: "Beautyrest - Mattress Selector",
-      description: "One of two developers working on this highly visual website that walked visitors through the selection of their mattress by asking them an assortment of questions relating to their sleeping habits. Built using React & Redux.",
+      description: "One of two developers who worked on this highly visual website that walked visitors through the selection of their mattress by asking them an assortment of questions relating to their sleeping habits. Built using React & Redux.",
       url: 'https://www.beautyrest.com/Mattress-Selector',
       mobileImage: 'beautyrest-mobile.jpg',
       desktopImage: 'beautyrest-desktop.jpg'
