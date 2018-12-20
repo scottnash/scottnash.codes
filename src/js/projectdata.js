@@ -19,6 +19,13 @@ const projectData = [
       mobileImage: 'bmw-mobile-mobile.jpg'
     },
     {
+      title: "Celebrity Concentration",
+      description: "A concentration card game to test the memory using images of celebrities. Built using React.",
+      url: 'https://scottnash.codes/concentration/',
+      mobileImage: 'celebrity-concentration-mobile.jpg',
+      desktopImage: 'celebrity-concentration-desktop.jpg'
+    },
+    {
       title: "Fruit2Day",
       description: "For this fruit in a drink site, I built a basic CMS using PHP and mySQL that allowed an admin to enter details about the various flavors of fruit drinks.  I also worked on building out the front-end that accessed the data and displayed the flavors in a promotional site.",
       desktopImage: 'fruit2day.jpg'
