@@ -22,8 +22,8 @@ const projectData = [
       title: "Celebrity Concentration",
       description: "A concentration card game to test the memory using images of celebrities. Built using React.",
       url: 'https://scottnash.codes/concentration/',
-      mobileImage: 'celebrity-concentration-mobile.jpg',
-      desktopImage: 'celebrity-concentration-desktop.jpg'
+      mobileImage: 'name-that-movie-mobile.jpg',
+      desktopImage: 'name-that-movie-desktop.jpg'
     },
     {
       title: "Fruit2Day",
@@ -41,6 +41,13 @@ const projectData = [
       url: 'https://www.storageconfiguration.com/lista/configuration#',
       mobileImage: 'lista-mobile.jpg',
       desktopImage: 'lista-desktop.jpg'
+    },
+    {
+      title: "Name that Movie",
+      description: "A game in written in VueJS in which the player has to guess what movie is hidden behind a series of small boxes.",
+      url: 'https://scottnash.codes/name-that-movie/#/',
+      mobileImage: 'pods-mobile.jpg',
+      desktopImage: 'pods-desktop.jpg'
     },
     {
       title: "Pods",
