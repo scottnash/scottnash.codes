@@ -44,7 +44,7 @@ const projectData = [
     },
     {
       title: "Name that Movie",
-      description: "A game in written in VueJS in which the player has to guess what movie is hidden behind a series of small boxes.",
+      description: "A game written in VueJS in which the player has to guess what movie is hidden behind a series of small boxes.",
       url: 'https://scottnash.codes/name-that-movie/#/',
       mobileImage: 'name-that-movie-mobile.jpg',
       desktopImage: 'name-that-movie-desktop.jpg'
