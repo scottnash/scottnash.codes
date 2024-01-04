@@ -1,43 +1,24 @@
 {
   "name": "scottnash.codes",
-  "version": "1.0.0",
-  "description": "Portfolio Site",
-  "main": "src/js/index.js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "normalize.css": "^8.0.1",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.0",
-    "@babel/plugin-proposal-class-properties": "^7.2.1",
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "@babel/preset-env": "^7.2.0",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/runtime": "^7.2.0",
-    "babel-loader": "^8.0.4",
-    "css-loader": "^1.0.1",
-    "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.10.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.1",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.26.1",
-    "webpack-cli": "^3.1.2"
-  },
-  "scripts": {
-    "dev": "set NODE_ENV=development&&webpack --watch",
-    "build": "set NODE_ENV=production&&webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/scottnash/scottnash.codes.git"
-  },
-  "author": "Scott Nash",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/scottnash/scottnash.codes/issues"
-  },
-  "homepage": "https://github.com/scottnash/scottnash.codes#readme"
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.3.0"
+  }
 }
