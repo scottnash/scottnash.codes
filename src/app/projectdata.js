@@ -1,15 +1,23 @@
 /* eslint-disable linebreak-style */
 const projectData = [
   {
-    title: 'Beautyrest - Mattress Selector',
-    description: 'One of two developers who worked on this highly visual website that walked visitors through the selection of their mattress by asking them an assortment of questions relating to their sleeping habits using animation. It was built using React & Redux.',
-    mobileImage: 'beautyrest-mobile.jpg',
-    desktopImage: 'beautyrest-desktop.jpg',
-    active: false
+    title: 'Kinship',
+    description: 'I am the lead architect and UI engineer for Kinship, a mobile app and website developed in React Native and React, respectively. The app serves as a personal relationship manager, assisting users in developing and maintaining connections with friends, family, and business associates. It interfaces with a backend API for data loading and storage while seamlessly interacting with the device, integrating features such as calendar, contacts, camera, photo library, and more. Kinship is compatible with iOS, Android, and web platforms.',
+    url: 'https://www.heykinship.com/',
+    mobileImage: 'kinship-mobile.png',
+    desktopImage: 'kinship-desktop.png',
+    active: true
+  },
+  {
+    title: 'Clay CMS',
+    description: 'Clay is the interactive CMS that enables editors to create and edit articles and other content for New York Magazine\'s suite of sites, developed in-house. The UI was constructed using Vue.js, complemented by a Node.js backend. I played a key role as a team member, responsible for maintaining and enhancing the functionalities of the CMS.',
+    url: 'https://clay.nymag.com/',
+    desktopImage: 'clay-desktop.gif',
+    active: true
   },
   {
     title: 'BMW - Build Your Own',
-    description: 'I was the lead front end engineer for a site that allowed visitors to BMW\'s website to configure their own BMW online. Written in Angular on the Frontend, with AEM as the CMS, the site interacts with a complex backend using a series of API calls to update all the various options based on user selections and configuration rules as the user moved through the creation process.',
+    description: 'I served as the lead front-end engineer for a website that enabled visitors to customize their own BMW on BMW\'s website. Developed using Angular on the frontend and AEM as the CMS, the site seamlessly interacts with a sophisticated backend through a series of API calls. These calls dynamically update various options based on user selections and configuration rules as the user progresses through the creation process.',
     url: 'https://www.bmwusa.com/byo',
     mobileImage: 'bmw-mobile.jpg',
     desktopImage: 'bmw-desktop.jpg',
@@ -17,100 +25,93 @@ const projectData = [
   },
   {
     title: 'BMW - Mobile Site',
-    description: 'Before bmwusa.com was converted to a fully responsive site, I was part of the team who built m.bmwusa.com, a stripped down, mobile only version of the BMW website that included a BYO, Dealer Locator, Contact a Dealer, as well as general information and promo pages.  It was built as a single page application using a framework developed in-house using vanilla JavaScript.',
+    description: 'Before bmwusa.com underwent conversion into a fully responsive site, I was a part of the team that constructed m.bmwusa.com—a streamlined, mobile-only version of the BMW website. This mobile platform included features such as Build Your Own (BYO), Dealer Locator, Contact a Dealer, along with general information and promotional pages. The site was developed as a single-page application using an in-house framework built with vanilla JavaScript.',
     mobileImage: 'bmw-mobile-mobile.jpg',
     active: false
   },
   {
-    title: 'Celebrity Concentration',
-    description: 'A concentration card game game I wrote in Rect just for the fun of it to test your memory using images of celebrities.',
-    url: 'https://scottnash.codes/concentration/',
-    mobileImage: 'celebrity-concentration-mobile.jpg',
-    desktopImage: 'celebrity-concentration-desktop.jpg',
-    active: true
-  },
-  {
-    title: 'Clay CMS',
-    description: 'Clay is the interactive CMS that allows editors to create and edit articles and other content for New York Magazine\'s suite of sites that was developed in-house. The UI was built with VueJS, with a backend written in NodeJS. I was a member of the team maintaining and expanding the capabilities of the CMS.',
-    url: 'https://clay.nymag.com/',
-    desktopImage: 'clay-desktop.gif',
-    active: true
-  },
-  {
-    title: 'DateTracker',
-    description: 'When I was in need of an app to track a date for my own personal use, I searched the app store for one, but after looking at waht was available I deced that I could build something just as good as any that are available, so I decided to write my own.  I was the sole architect/designer/engineer on it.  The app is written in React Native and runs on iOS as well as Android. DateTracker allows you to track the number of days since or until a certain date. You can use it to countdown to a special event (Christmas, anniversary, moving day, graduation, etc.) or to track how long it has been since a certain day, such as positive habits like how long since you quit smoking, started a diet or any other streak you\'d like to track You can enter the dates to track manually or import them from your calendar. You can add the most important date as a widget to your home screen to keep it front and center.',
-    url: 'https://apps.apple.com/us/app/datetracker/id6466183057',
-    desktopImage: 'daytracker-mobile.png',
-    active: true
-  },
-  {
-    title: 'Fruit2Day',
-    description: 'I was the lead engineer for this fruit in a drink site. I built a basic CMS using PHP and mySQL that allowed an admin to enter details about the various flavors of fruit drinks.  I also built out the front end that accessed the data and displayed the flavors in a promotional site.',
-    desktopImage: 'fruit2day.jpg',
-    active: false
-  },
-  {
-    title: 'Justin Bieber - Someday',
-    description: 'I was the lead front end engineer for this site that promoted and sold Justin Bieber\'s fragrance \'Someday\', along with other related merchandise.',
-    desktopImage: 'justinbieber-mobile.jpg',
-    active: false
-  },
-  {
-    title: 'Kinship',
-    description: 'I am the lead architect and ui engineer for Kinship, a mobile app and website written in React-Native and React, respectively. The app is a personal relationship manager that helps user to develop and maintain their relationships with friends, family, and business associates. It connects to backend api to load and store data, as well as interacting with the device it is running on to connect your calendar, contacts, camera, photo library, etc. It runs on iOS, Android, and the web.',
-    url: 'https://www.heykinship.com/',
-    mobileImage: 'kinship-mobile.png',
-    desktopImage: 'kinship-desktop.png',
-    active: true
-  },
-  {
     title: 'Lista Cabinet Configurator',
-    description: 'I was the lead React/Redux developer on the cabinet configurator, responsible for coding the dashboard and all the form interactions as well as the passing of data between the backend and the Three.js visualization app that allowed the user to design their cabinets.',
+    description: 'I served as the lead React/Redux developer for the cabinet configurator, taking charge of coding the dashboard, managing all form interactions, and orchestrating the seamless transfer of data between the backend and the Three.js visualization app. This application empowered users to intricately design their cabinets with precision and ease.',
     url: 'http://www.storageconfiguration.com/lista/configuration',
     mobileImage: 'lista-mobile.jpg',
     desktopImage: 'lista-desktop.jpg',
     active: true
   },
   {
-    title: 'Name that Movie',
-    description: 'Another game that I wrote just for the fun of it, in which the player has to guess what movie is hidden behind a series of small boxes. This one was written in VueJS.',
-    url: 'https://scottnash.codes/name-that-movie/#/',
-    mobileImage: 'name-that-movie-mobile.jpg',
-    desktopImage: 'name-that-movie-desktop.jpg',
-    active: true
-  },
-  {
     title: 'Pods',
-    description: 'I was the lead front end engineer on this rebuild of the Pods website. With Sitecore on the back-end, I built out the various modules on the site, including the Get a Quote process, which was built using React/Redux and interacted with 2 different back-end services to provide the correct data to the user.',
+    description: 'I spearheaded the reconstruction of the Pods website as the lead front-end engineer. Leveraging Sitecore on the back-end, I developed multiple modules within the site. Notably, I engineered the Get a Quote process using React/Redux, interacting with two distinct back-end services to ensure accurate and efficient data delivery to users.',
     url: 'https://www.pods.com/',
     mobileImage: 'pods-mobile.jpg',
     desktopImage: 'pods-desktop.jpg',
     active: true
   },
   {
-    title: 'The Prostate Czech',
-    description: 'A site I built for the Prostate Cancer Foundation as part of their effort to raise awareness for Prostate Cancer and to encourage men to get checked. The site was a 16th Annual Webby Award Honoree.',
-    mobileImage: 'czech-site-mobile.jpg',
-    desktopImage: 'czech-site-desktop.jpg',
-    active: false
-  },
-  {
-    title: 'Puma - Factory',
-    description: 'I was one of several front end engineers on the team who built Puma\'s \'Design Your Own Puma\' site. Using it, visitors to the site were able to design their own by choosing various components for their shoes as well as pick their colors. The site was written in React.',
-    desktopImage: 'puma-desktop.jpg',
-    active: false
+    title: 'DateTracker',
+    description: 'After searching for a date-tracking app and seeeing what was available, I decided to create my own using React Native. As the sole architect, designer, and engineer, I crafted DateTracker for both iOS and Android. This versatile app lets you count down to or track days since specific events or habits, manually or by importing from your calendar. For quick access, you can add the most important date as widget on your home screen.',
+    url: 'https://apps.apple.com/us/app/datetracker/id6466183057',
+    desktopImage: 'daytracker-mobile.png',
+    active: true
   },
   {
     title: 'Three Movie Buffs',
-    description: 'This was a movie review website that I was the sole engineer on, building it out using a custom CMS written in PHP/MYSQL. I also wrote one-third of the movie reviews and was a member of the New York Film Critics Online society, attended press screenings and conducted a few celebrity interviews. It is now archived as flat HTML pages.',
+    description: 'I single-handedly engineered a movie review website using a custom PHP/MYSQL CMS. Contributing one-third of the movie reviews, I was also an active member of the New York Film Critics Online society, attending press screenings and conducting celebrity interviews. The website is now archived as flat HTML pages.',
     url: 'http://www.threemoviebuffs.com/',
     mobileImage: 'threemoviebuffs-mobile.jpg',
     desktopImage: 'threemoviebuffs-desktop.jpg',
     active: true
   },
   {
+    title: 'Celebrity Concentration',
+    description: 'Remember the old Concentration card game? Well, brace yourself for the celebrity edition, where memory meets the red carpet! It\'s like the Oscars for your brain, but with cards. Ready to exercise those memory muscles and match the faces of stars? Let the games begin! This game was built using React and images taken from my movie review website threemoviebuffs.com.',
+    url: 'https://scottnash.codes/concentration/',
+    mobileImage: 'celebrity-concentration-mobile.jpg',
+    desktopImage: 'celebrity-concentration-desktop.jpg',
+    active: true
+  },
+  {
+    title: 'Name that Movie',
+    description: 'Get set for a cinematic brain teaser! Dive into a movie guessing game, where you have to guess the hidden movie. With a few clever clues and VueJS magic, it\'s your own film detective agency in a digital nutshell!',
+    url: 'https://scottnash.codes/name-that-movie/#/',
+    mobileImage: 'name-that-movie-mobile.jpg',
+    desktopImage: 'name-that-movie-desktop.jpg',
+    active: true
+  },
+  {
+    title: 'Beautyrest - Mattress Selector',
+    description: 'I was one of two developers involved in the creation of this visually engaging website that guides visitors through the mattress selection process. The interactive experience involves asking users a series of questions about their sleeping habits, animated for an immersive journey. The website was built using React and Redux.',
+    mobileImage: 'beautyrest-mobile.jpg',
+    desktopImage: 'beautyrest-desktop.jpg',
+    active: false
+  },
+  {
+    title: 'Fruit2Day',
+    description: 'I served as the lead engineer for a fruit-infused beverage website. I developed a rudimentary CMS using PHP and MySQL, enabling an admin to input details about different fruit drink flavors. I also built out the front end that accessed the data and displayed the flavors in a promotional site.',
+    desktopImage: 'fruit2day.jpg',
+    active: false
+  },
+  {
+    title: 'Justin Bieber - Someday',
+    description: 'I served as the lead front-end engineer for a site promoting and selling Justin Bieber\'s fragrance \'Someday,\' along with other related merchandise.',
+    desktopImage: 'justinbieber-mobile.jpg',
+    active: false
+  },
+  {
+    title: 'The Prostate Czech',
+    description: 'A site I constructed for the Prostate Cancer Foundation as part of their effort to raise awareness for prostate cancer and encourage men to get checked. The site was recognized as a 16th Annual Webby Award Honoree.',
+    mobileImage: 'czech-site-mobile.jpg',
+    desktopImage: 'czech-site-desktop.jpg',
+    url: 'https://www.youtube.com/watch?v=_653fwqWSRA',
+    active: false
+  },
+  {
+    title: 'Puma - Factory',
+    description: 'I was one of several front-end engineers on the team that built Puma\'s \'Design Your Own Puma\' site. Through this platform, visitors could personalize their shoes by selecting various components and choosing colors. The site was developed using React.',
+    desktopImage: 'puma-desktop.jpg',
+    active: false
+  },
+  {
     title: 'Vanguard - Life Ticker',
-    description: 'A promotional site that I built using Vanilla JavaScript that allowed users to create a \'ticker\' that emphasized the things users wanted more of and less of in their life and which would then lead them to find ways to invest with Vanguard to get more of the positives. It also allowed the user to share their \'ticker\' on social media.',
+    description: 'A promotional site I constructed using Vanilla JavaScript that enables users to create a \'ticker,\' emphasizing aspects they want more or less of in their life. The platform guides them to explore investment opportunities with Vanguard to enhance the positive aspects. Additionally, users could easily share their customized \'ticker\' on social media.',
     desktopImage: 'vanguard-desktop.jpg',
     active: false
   }

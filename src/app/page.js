@@ -37,22 +37,10 @@ export default function Home() {
         </div>
       </aside>
       <div className="flex flex-col sm:ml-[200px]">
-        <h1 className="text-[32px] font-bold mt-[25px] mx-[25px]">Project Highlights</h1>
-        <p className="mx-[25px] mb-[25px]">The following is a list of just some of the projects I've worked on over the years in roles ranging from front end developer, lead engineer, and lead architect.</p>
-        {ProjectData.filter((project) => project.active).map((project, index) => {
-          return (
-            <div key={index} className="mt-0 mb-[25px] mx-[25px] max-w-[1000px]">
-              <a
-                className={`${project.url ? 'underline underline-offset-4' : ''}  pb-[15px] text-[24px] font-bold`}
-                href={project.url} target="_blank" rel="noreferrer">{project.title}</a>
-              {renderImage(project)}
-              <p className="my-[10px]">{project.description}</p>
-            </div>
-          );
-        }
-        )}
-        <h2 className="text-[24px] font-bold mt-[25px] mx-[25px]">Inactive Projects</h2>
-        {ProjectData.filter((project) => !project.active).map((project, index) => {
+        <h1 className="text-[32px] font-bold mt-[25px] mx-[25px]">Hello!👋</h1>
+        <p className="mx-[25px] mb-[25px]">I am a senior Front-End Engineer, experienced with React, React Native, and many other frameworks, packages, and vanilla JavaScript. Proficient in the art of crafting dynamic and responsive user interfaces and with a robust command over React and its Native counterpart, I excel in building seamless, cross-platform applications that bridge the gap between web and mobile environments. My expertise lies in leveraging React's component-based architecture to create scalable and maintainable code, ensuring optimal performance across various platforms. Whether it's developing interactive web applications or native mobile solutions, my skills encompass a deep understanding of JavaScript, state management, and UI/UX principles. I thrive in collaborative environments, tackling challenges with a pragmatic approach to deliver intuitive and visually appealing user experiences.</p>
+        <p className="mx-[25px] mb-[25px]">The following are just some of the many projects I have worked on over the years.</p>
+        {ProjectData.map((project, index) => {
           return (
             <div key={index} className="mt-0 mb-[25px] mx-[25px] max-w-[1000px]">
               <a
