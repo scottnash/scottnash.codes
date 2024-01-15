@@ -47,7 +47,7 @@ const projectData = [
   },
   {
     title: 'DateTracker',
-    description: 'This is an app I constructed for my own personal use when I saw what was available in the app store and decided I could build something better than what was available. It\s a simple app that enables users to countdown or countup from important dates and display the most important date in a widget on their device. The app is built using React Native and Redux, and is available for both iOS and Android.',
+    description: 'This is an app I constructed for my own personal use when I saw what was available in the app store and decided I could build something better than what was available. It\'s a simple app that enables users to countdown or countup from important dates and display the most important date in a widget on their device. The app is built using React Native and Redux, and is available for both iOS and Android.',
     url: 'https://apps.apple.com/us/app/datetracker/id6466183057',
     desktopImage: 'daytracker-mobile.png',
     active: true
