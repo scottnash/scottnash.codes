@@ -10,14 +10,14 @@ const projectData = [
   },
   {
     title: 'Clay CMS',
-    description: 'Clay is the interactive CMS that enables editors to create and edit articles and other content for New York Magazine\'s suite of sites, developed in-house. The UI was constructed using Vue.js, complemented by a Node.js backend. I played a key role as a team member, responsible for maintaining and enhancing the functionalities of the CMS.',
+    description: 'Clay is the interactive CMS that enables editors to create and edit articles and other content for New York Magazine\'s suite of sites, developed in-house. The UI was constructed using Vue.js, complemented by a Node.js backend. I was one of several engineers responsible for maintaining and enhancing the functionalities of the CMS.',
     url: 'https://clay.nymag.com/',
     desktopImage: 'clay-desktop.gif',
     active: true
   },
   {
     title: 'BMW - Build Your Own',
-    description: 'I served as the lead front-end engineer for a website that enabled visitors to customize their own BMW on BMW\'s website. Developed using Angular on the frontend and AEM as the CMS, the site seamlessly interacts with a sophisticated backend through a series of API calls. These calls dynamically update various options based on user selections and configuration rules as the user progresses through the creation process.',
+    description: 'I served as the lead front-end engineer for a website that enabled visitors to customize their own BMW on BMW\'s website. Developed using Angular on the frontend and with AEM as the CMS, the site interacts with the backend through a series of API calls. These calls dynamically update various options based on user selections and configuration rules as the user progresses through the creation process.',
     url: 'https://www.bmwusa.com/byo',
     mobileImage: 'bmw-mobile.jpg',
     desktopImage: 'bmw-desktop.jpg',
@@ -47,14 +47,14 @@ const projectData = [
   },
   {
     title: 'DateTracker',
-    description: 'After searching for a date-tracking app and seeeing what was available, I decided to create my own using React Native. As the sole architect, designer, and engineer, I crafted DateTracker for both iOS and Android. This versatile app lets you count down to or track days since specific events or habits, manually or by importing from your calendar. For quick access, you can add the most important date as widget on your home screen.',
+    description: 'This is an app I constructed for my own personal use when I saw what was available in the app store and decided I could build something better than what was available. It\s a simple app that enables users to countdown or countup from important dates and display the most important date in a widget on their device. The app is built using React Native and Redux, and is available for both iOS and Android.',
     url: 'https://apps.apple.com/us/app/datetracker/id6466183057',
     desktopImage: 'daytracker-mobile.png',
     active: true
   },
   {
     title: 'Three Movie Buffs',
-    description: 'I single-handedly engineered a movie review website using a custom PHP/MYSQL CMS. Contributing one-third of the movie reviews, I was also an active member of the New York Film Critics Online society, attending press screenings and conducting celebrity interviews. The website is now archived as flat HTML pages.',
+    description: 'I was the sole engineer on a movie review website that ran for many years using a custom PHP/MYSQL CMS. Contributing one-third of the movie reviews, I was also an active member of the New York Film Critics Online society, attending press screenings and conducting celebrity interviews. The website is now archived as flat HTML pages.',
     url: 'http://www.threemoviebuffs.com/',
     mobileImage: 'threemoviebuffs-mobile.jpg',
     desktopImage: 'threemoviebuffs-desktop.jpg',
@@ -62,7 +62,7 @@ const projectData = [
   },
   {
     title: 'Celebrity Concentration',
-    description: 'Remember the old Concentration card game? Well, brace yourself for the celebrity edition, where memory meets the red carpet! It\'s like the Oscars for your brain, but with cards. Ready to exercise those memory muscles and match the faces of stars? Let the games begin! This game was built using React and images taken from my movie review website threemoviebuffs.com.',
+    description: 'This was a game I built for my movie review website threemoviebuffs.com in React, which uses images of celebrities taken from that site to make up the faces of the cards in this celebrity version of the classic memory card game.',
     url: 'https://scottnash.codes/concentration/',
     mobileImage: 'celebrity-concentration-mobile.jpg',
     desktopImage: 'celebrity-concentration-desktop.jpg',
@@ -70,7 +70,7 @@ const projectData = [
   },
   {
     title: 'Name that Movie',
-    description: 'Get set for a cinematic brain teaser! Dive into a movie guessing game, where you have to guess the hidden movie. With a few clever clues and VueJS magic, it\'s your own film detective agency in a digital nutshell!',
+    description: 'This was another game written for threemoviebuffs.com, this time using Vue.js. The game presents a hidden movie still and asks the user to identify the movie by removing random squares to reveal more of the image. The fewer squares removed, the more points the user earns.',
     url: 'https://scottnash.codes/name-that-movie/#/',
     mobileImage: 'name-that-movie-mobile.jpg',
     desktopImage: 'name-that-movie-desktop.jpg',
