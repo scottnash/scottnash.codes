@@ -2,6 +2,10 @@
 
 # dependencies
 /node_modules
+/apps/name-that-movie/node_modules
+/apps/name-that-movie/dist
+/apps/concentration/node_modules
+/apps/concentration/build
 /.pnp
 .pnp.js
 .yarn/install-state.gz

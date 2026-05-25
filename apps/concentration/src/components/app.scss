@@ -1,0 +1,60 @@
+@import '../sass/_config.scss';
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'Limelight';
+    src: url('../fonts/Limelight.woff2') format('woff2'),
+        url('../fonts/Limelight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+body {
+  background-color: $greenBackground;
+  min-width: 320px;
+}
+
+.App {
+  color: #fff;
+  margin: 15px auto;
+  max-width: 100%;
+  overflow: hidden;
+  padding-right: 5px;
+  @include breakpoint( sm ) {
+    margin: 25px auto;
+    max-width: 1600px;
+  }
+
+  h2 {
+    font-family: Limelight;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  h1 {
+    font-family: Limelight;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  header {
+    overflow: hidden;
+  }
+  .intro {
+    @include breakpoint( sm ) {
+      float: left;
+    }
+  }
+  .score-board {
+    margin-top: 15px;
+    @include breakpoint( sm ) {
+      float: right;
+      margin-top: 0;
+    }
+    p {
+      margin: 0 0 5px 0;
+    }
+  }
+}

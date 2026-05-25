@@ -3,7 +3,6 @@ const projectData = [
   {
     title: 'Walmart Global Tech',
     description: 'As a Senior Software Engineer at Walmart Global Tech, I work within the Walmart Careers department — the recruiting arm of the world\'s largest private employer, processing millions of job applications annually. My work is focused on building and improving the tools that power Walmart\'s hiring process. I contributed to two standalone web applications — one for recruiters to schedule interviews, provide feedback, and manage the interview process, and another with similar functionality tailored for recruiting coordinators. More recently, I have been part of the effort to integrate this interview flow into campus.walmart.com, Walmart\'s internal employee platform, bringing hiring manager and interviewer functionality — including requisition tracking, interview scheduling, and post-interview feedback — directly into a single unified experience. campus.walmart.com is built as both a website and a mobile app using React Native and React Native Web, with GraphQL powering the data layer. I have also mentored junior developers throughout these projects.',
-    url: 'https://www.walmart.com/',
     mobileImage: 'walmart_mobile.png',
     desktopImage: 'walmart_desktop.png',
     active: true
@@ -11,7 +10,6 @@ const projectData = [
   {
     title: 'Kinship',
     description: 'I was the lead architect and UI engineer for Kinship, a mobile app and website developed in React Native and React, respectively. The app serves as a personal relationship manager, assisting users in developing and maintaining connections with friends, family, and business associates. It interfaces with a backend API for data loading and storage while seamlessly interacting with the device, integrating features such as calendar, contacts, camera, photo library, and more. Kinship is compatible with iOS, Android, and web platforms.',
-    url: 'https://www.heykinship.com/',
     mobileImage: 'kinship-mobile.png',
     desktopImage: 'kinship-desktop.png',
     active: true
@@ -40,7 +38,6 @@ const projectData = [
   {
     title: 'Lista Cabinet Configurator',
     description: 'I served as the lead React/Redux developer for the cabinet configurator, taking charge of coding the dashboard, managing all form interactions, and orchestrating the seamless transfer of data between the backend and the Three.js visualization app. This application empowered users to intricately design their cabinets with precision and ease.',
-    url: 'http://www.storageconfiguration.com/lista/configuration',
     mobileImage: 'lista-mobile.jpg',
     desktopImage: 'lista-desktop.jpg',
     active: true

@@ -17,13 +17,27 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
-      - name: Install dependencies
+      - name: Build name-that-movie
+        working-directory: apps/name-that-movie
+        run: npm install --legacy-peer-deps --ignore-scripts && npm run build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
+
+      - name: Build concentration
+        working-directory: apps/concentration
+        run: npm install --legacy-peer-deps && npm run build
+
+      - name: Install main site dependencies
         run: npm ci
 
-      - name: Build
+      - name: Build main site
         run: npm run build
+
+      - name: Merge sub-app outputs
+        run: |
+          cp -r apps/name-that-movie/dist out/name-that-movie
+          cp -r apps/concentration/build out/concentration
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@v0.1.7
