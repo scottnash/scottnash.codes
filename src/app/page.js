@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import ProjectData from './projectdata';
 
 function AnimatedCard({ children, index }) {
@@ -33,6 +34,11 @@ function AnimatedCard({ children, index }) {
     </div>
   );
 }
+
+AnimatedCard.propTypes = {
+  children: PropTypes.node.isRequired,
+  index: PropTypes.number.isRequired,
+};
 
 export default function Home() {
   const renderImage = (project) => {
