@@ -2,7 +2,7 @@
 const projectData = [
   {
     title: 'Kinship',
-    description: 'I am the lead architect and UI engineer for Kinship, a mobile app and website developed in React Native and React, respectively. The app serves as a personal relationship manager, assisting users in developing and maintaining connections with friends, family, and business associates. It interfaces with a backend API for data loading and storage while seamlessly interacting with the device, integrating features such as calendar, contacts, camera, photo library, and more. Kinship is compatible with iOS, Android, and web platforms.',
+    description: 'I was the lead architect and UI engineer for Kinship, a mobile app and website developed in React Native and React, respectively. The app serves as a personal relationship manager, assisting users in developing and maintaining connections with friends, family, and business associates. It interfaces with a backend API for data loading and storage while seamlessly interacting with the device, integrating features such as calendar, contacts, camera, photo library, and more. Kinship is compatible with iOS, Android, and web platforms.',
     url: 'https://www.heykinship.com/',
     mobileImage: 'kinship-mobile.png',
     desktopImage: 'kinship-desktop.png',
