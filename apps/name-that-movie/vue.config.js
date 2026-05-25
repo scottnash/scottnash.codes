@@ -1,4 +1,5 @@
 module.exports = {
   baseUrl: '/name-that-movie',
-  lintOnSave: false
+  lintOnSave: false,
+  parallel: false
 }
