@@ -6,41 +6,46 @@ export const metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <main style={{ maxWidth: '700px', margin: '60px auto', padding: '0 24px', fontFamily: 'sans-serif', lineHeight: '1.7', color: '#222' }}>
-      <h1>Unchained Audio Player Privacy Policy</h1>
-      <p><em>Last updated: May 25, 2026</em></p>
+    <main style={{ maxWidth: '700px', margin: '60px auto', padding: '0 24px', fontFamily: 'sans-serif', lineHeight: '1.7', color: '#cbd5e1' }}>
+      <h1 style={{ color: '#f1f5f9', fontSize: '2rem', marginBottom: '4px' }}>Unchained Audio Player Privacy Policy</h1>
+      <p style={{ color: '#94a3b8', fontSize: '0.9rem' }}><em>Last updated: May 25, 2026</em></p>
 
       <p>
-        Unchained Audio Player ("the App") is an app developed by Scott Nash. This Privacy Policy explains how
+        Unchained Audio Player (&ldquo;the App&rdquo;) is an app developed by Scott Nash. This Privacy Policy explains how
         information is handled when you use the App.
       </p>
 
-      <h2>Data Collection</h2>
+      <h2 style={{ color: '#7dd3fc', fontSize: '1.1rem', marginTop: '32px' }}>Data Collection</h2>
       <p>
         The App does not collect, store, transmit, or share any personal data. All data you interact with
         is stored locally on your device and is never sent to any server or third party.
       </p>
 
-      <h2>Third-Party Services</h2>
+      <h2 style={{ color: '#7dd3fc', fontSize: '1.1rem', marginTop: '32px' }}>Third-Party Services</h2>
       <p>
         The App does not use any third-party analytics, advertising, or tracking services.
       </p>
 
-      <h2>Children's Privacy</h2>
+      <h2 style={{ color: '#7dd3fc', fontSize: '1.1rem', marginTop: '32px' }}>Children&rsquo;s Privacy</h2>
       <p>
         The App does not collect any information from anyone, including children under the age of 13.
       </p>
 
-      <h2>Changes to This Policy</h2>
+      <h2 style={{ color: '#7dd3fc', fontSize: '1.1rem', marginTop: '32px' }}>Changes to This Policy</h2>
       <p>
         If this policy changes, the updated version will be posted at this URL. Continued use of the App after any
         changes constitutes acceptance of the new policy.
       </p>
 
-      <h2>Contact</h2>
+      <h2 style={{ color: '#7dd3fc', fontSize: '1.1rem', marginTop: '32px' }}>Contact</h2>
       <p>
         If you have any questions about this privacy policy, you can contact the developer at{' '}
-        <a href="mailto:scott@scottnash.codes">scott@scottnash.codes</a>.
+        <a href="mailto:scott@scottnash.codes" style={{ color: '#7dd3fc' }}>scott@scottnash.codes</a>.
+      </p>
+
+      <p style={{ marginTop: '48px', fontSize: '0.75rem', color: '#475569' }}>
+        &copy; {new Date().getFullYear()}{' '}
+        <a href="https://scottnash.codes" style={{ color: '#64748b' }}>Scott Nash</a>
       </p>
     </main>
   );
