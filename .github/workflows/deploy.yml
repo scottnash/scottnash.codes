@@ -29,6 +29,8 @@ jobs:
       - name: Build concentration
         working-directory: apps/concentration
         run: npm install --legacy-peer-deps && npm run build
+        env:
+          CI: false
 
       - name: Install main site dependencies
         run: npm ci
