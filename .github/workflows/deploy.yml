@@ -22,9 +22,7 @@ jobs:
         working-directory: apps/name-that-movie
         run: |
           npm install --legacy-peer-deps --ignore-scripts
-          timeout 180 npm run build
-          RESULT=$?
-          if [ $RESULT -ne 0 ] && [ $RESULT -ne 124 ]; then exit $RESULT; fi
+          timeout 180 npm run build || [ $? -eq 124 ]
         env:
           NODE_OPTIONS: --openssl-legacy-provider
 
