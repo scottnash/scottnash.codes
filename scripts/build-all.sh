@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Builds the main Next.js site plus the two sub-apps into ./out.
-# Used by Render (render.yaml) and the GitHub Actions deploy.
+# Used by Render (render.yaml).
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
