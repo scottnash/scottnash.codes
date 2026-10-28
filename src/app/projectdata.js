@@ -1,6 +1,14 @@
 /* eslint-disable linebreak-style */
 const projectData = [
   {
+    title: 'Weather Then',
+    description: 'Weather Then is an app I designed and built on my own that answers a question most weather apps can\'t: is this weather actually unusual for where I live? It puts today\'s forecast beside decades of NOAA climate history for your location, so you can see how today, this season, and this year stack up against the local record. The app is built with Expo and React Native in TypeScript, with Skia-powered charts and home screen widgets on both iOS and Android. Behind it is an API I wrote in Python with FastAPI and Postgres that serves historical NOAA GHCN-Daily data from roughly 19,000 U.S. weather stations, while live conditions and forecasts come from Open-Meteo. Weather Then is available on the App Store and Google Play.',
+    url: 'https://weather-then.com/',
+    mobileImage: 'weather-then-mobile.png',
+    desktopImage: 'weather-then-desktop.png',
+    active: true
+  },
+  {
     title: 'Walmart Global Tech',
     description: 'As a Senior Software Engineer at Walmart Global Tech, I work within the Walmart Careers department — the recruiting arm of the world\'s largest private employer, processing millions of job applications annually. My work is focused on building and improving the tools that power Walmart\'s hiring process. I contributed to two standalone web applications — one for recruiters to schedule interviews, provide feedback, and manage the interview process, and another with similar functionality tailored for recruiting coordinators. More recently, I have been part of the effort to integrate this interview flow into campus.walmart.com, Walmart\'s internal employee platform, bringing hiring manager and interviewer functionality — including requisition tracking, interview scheduling, and post-interview feedback — directly into a single unified experience. campus.walmart.com is built as both a website and a mobile app using React Native and React Native Web, with GraphQL powering the data layer. I have also mentored junior developers throughout these projects.',
     mobileImage: 'walmart_mobile.png',
