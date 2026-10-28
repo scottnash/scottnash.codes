@@ -9,6 +9,22 @@ const projectData = [
     active: true
   },
   {
+    title: 'Unchained Audio Player',
+    description: 'Unchained Audio Player is an app I built for listening to audio files you already own — music, audiobooks, and anything else — without being tied to a streaming service or subscription. You import files from the Files app, and it organizes them into a library of tracks, albums, and artists that you can sort and search, with custom artwork from your photo library. Audiobooks pick up right where you left off on every track, and the player includes playback speed, a sleep timer, shuffle, and a queue. It is built with Expo and React Native in TypeScript, using expo-audio and a custom native module for the iOS audio session so playback keeps going in the background, SQLite for the library, Redux Toolkit for state, and NativeWind for styling. It adapts its layout to iPhone, iPad, and the folding iPhone Duo.',
+    url: 'https://apps.apple.com/us/app/unchained-audio-player/id6738159048',
+    mobileImage: 'unchained-audio-mobile.png',
+    desktopImage: 'unchained-audio-desktop.png',
+    active: true
+  },
+  {
+    title: 'DateTracker',
+    description: 'This is an app I originally built for my own use when I saw what was available in the App Store and decided I could build something better. It counts down to or up from the dates that matter to you, shows the count in days or in years, months, and days, can repeat a date every year, and puts your most important date in a home screen widget. In 2026 I rebuilt it from the ground up with Expo and React Native\'s New Architecture, with a redesigned interface and a native SwiftUI widget, while making sure every existing user\'s saved dates carried over through the update. DateTracker is available for iPhone and iPad on the App Store.',
+    url: 'https://apps.apple.com/us/app/datetracker/id6466183057',
+    mobileImage: 'datetracker-mobile.png',
+    desktopImage: 'datetracker-desktop.png',
+    active: true
+  },
+  {
     title: 'Walmart Global Tech',
     description: 'As a Senior Software Engineer at Walmart Global Tech, I work within the Walmart Careers department — the recruiting arm of the world\'s largest private employer, processing millions of job applications annually. My work is focused on building and improving the tools that power Walmart\'s hiring process. I contributed to two standalone web applications — one for recruiters to schedule interviews, provide feedback, and manage the interview process, and another with similar functionality tailored for recruiting coordinators. More recently, I have been part of the effort to integrate this interview flow into campus.walmart.com, Walmart\'s internal employee platform, bringing hiring manager and interviewer functionality — including requisition tracking, interview scheduling, and post-interview feedback — directly into a single unified experience. campus.walmart.com is built as both a website and a mobile app using React Native and React Native Web, with GraphQL powering the data layer. I have also mentored junior developers throughout these projects.',
     mobileImage: 'walmart_mobile.png',
@@ -56,13 +72,6 @@ const projectData = [
     url: 'https://www.pods.com/',
     mobileImage: 'pods-mobile.jpg',
     desktopImage: 'pods-desktop.jpg',
-    active: true
-  },
-  {
-    title: 'DateTracker',
-    description: 'This is an app I constructed for my own personal use when I saw what was available in the app store and decided I could build something better than what was available. It\'s a simple app that enables users to countdown or countup from important dates and display the most important date in a widget on their device. The app is built using React Native and Redux, and is available for both iOS and Android.',
-    url: 'https://apps.apple.com/us/app/datetracker/id6466183057',
-    desktopImage: 'daytracker-mobile.png',
     active: true
   },
   {
