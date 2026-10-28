@@ -18,30 +18,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Build name-that-movie
-        working-directory: apps/name-that-movie
-        run: |
-          npm install --legacy-peer-deps --ignore-scripts
-          timeout 180 npm run build || [ $? -eq 124 ]
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
-
-      - name: Build concentration
-        working-directory: apps/concentration
-        run: npm install --legacy-peer-deps && npm run build
-        env:
-          CI: false
-
-      - name: Install main site dependencies
-        run: npm ci
-
-      - name: Build main site
-        run: npm run build
-
-      - name: Merge sub-app outputs
-        run: |
-          cp -r apps/name-that-movie/dist out/name-that-movie
-          cp -r apps/concentration/build out/concentration
+      - name: Build site and sub-apps
+        run: bash scripts/build-all.sh
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@v0.1.7

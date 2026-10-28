@@ -1,0 +1,14 @@
+# Render Blueprint: New -> Blueprint in the Render dashboard, pick this repo.
+services:
+  - type: web
+    name: scottnash-codes
+    runtime: static
+    branch: master
+    buildCommand: bash scripts/build-all.sh
+    staticPublishPath: ./out
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+    domains:
+      - scottnash.codes
+      - www.scottnash.codes
