@@ -76,10 +76,10 @@ const projectData = [
   },
   {
     title: 'Three Movie Buffs',
-    description: 'I was the sole engineer on a movie review website that ran for many years using a custom PHP/MYSQL CMS. Contributing one-third of the movie reviews, I was also an active member of the New York Film Critics Online society, attending press screenings and conducting celebrity interviews. The website is now archived as flat HTML pages.',
-    url: 'http://www.threemoviebuffs.com/',
-    mobileImage: 'threemoviebuffs-mobile.jpg',
-    desktopImage: 'threemoviebuffs-desktop.jpg',
+    description: 'I was the sole engineer on a movie review website that ran for many years using a custom PHP/MYSQL CMS. Contributing one-third of the movie reviews, I was also an active member of the New York Film Critics Online society, attending press screenings and conducting celebrity interviews. I have since rebuilt the site with Next.js, Payload CMS and Postgres, and its full archive of reviews is live again at 3moviebuffs.com.',
+    url: 'https://3moviebuffs.com/',
+    mobileImage: 'threemoviebuffs-mobile.png',
+    desktopImage: 'threemoviebuffs-desktop.png',
     active: true
   },
   {
