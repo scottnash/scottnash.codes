@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Builds the main Next.js site plus the two sub-apps into ./out.
+# Builds the main Next.js site plus the name-that-movie sub-app into ./out.
 # Used by Render (render.yaml).
 set -euo pipefail
 
@@ -26,19 +26,13 @@ cat "$LOG"
 grep -q "Build complete" "$LOG" || { echo "name-that-movie build failed"; exit 1; }
 test -f dist/index.html
 
-echo "==> Building concentration"
-cd "$ROOT/apps/concentration"
-npm install --legacy-peer-deps
-CI=false npm run build
-
 echo "==> Building main site"
 cd "$ROOT"
 npm ci
 npm run build
 
-echo "==> Merging sub-app outputs"
-rm -rf out/name-that-movie out/concentration
+echo "==> Merging sub-app output"
+rm -rf out/name-that-movie
 cp -r apps/name-that-movie/dist out/name-that-movie
-cp -r apps/concentration/build out/concentration
 
 echo "==> Done: $(find out -type f | wc -l | tr -d ' ') files in out/"
