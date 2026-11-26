@@ -84,10 +84,10 @@ const projectData = [
   },
   {
     title: 'Celebrity Concentration',
-    description: 'This was a game I built for my movie review website threemoviebuffs.com in React, which uses images of celebrities taken from that site to make up the faces of the cards in this celebrity version of the classic memory card game.',
-    url: 'https://scottnash.codes/concentration/',
-    mobileImage: 'celebrity-concentration-mobile.jpg',
-    desktopImage: 'celebrity-concentration-desktop.jpg',
+    description: 'A celebrity version of the classic memory card game that I first built in React for threemoviebuffs.com. When I relaunched the site at 3moviebuffs.com, I rewrote the game in TypeScript as part of the new Next.js site and brought it home. The cards are now drawn from the site\'s own star photos, about 2,000 actors who appear in the movies we reviewed, and each pair you find shows the star\'s name with a link to their movies on the site. Players\' games are kept in their own browser, so the end of each game shows their best and average scores, times, and a chart of how they have done.',
+    url: 'https://3moviebuffs.com/games/concentration',
+    mobileImage: 'celebrity-concentration-mobile.png',
+    desktopImage: 'celebrity-concentration-desktop.png',
     active: true
   },
   {

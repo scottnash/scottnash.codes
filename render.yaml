@@ -6,6 +6,14 @@ services:
     branch: master
     buildCommand: bash scripts/build-all.sh
     staticPublishPath: ./out
+    # Celebrity Concentration moved back to Three Movie Buffs (it was built into ./out/concentration until 2026-11).
+    routes:
+      - type: redirect
+        source: /concentration
+        destination: https://3moviebuffs.com/games/concentration
+      - type: redirect
+        source: /concentration/*
+        destination: https://3moviebuffs.com/games/concentration
     envVars:
       - key: NODE_VERSION
         value: "20"
